@@ -1,6 +1,7 @@
 <?php
 namespace App\Controller;
 
+use Symfony\Component\Asset\Package;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class StartController extends AbstractController

@@ -3,13 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <title>ZadanieJuniorPHP</title>
-    </head>
+		{% block stylesheets %}
+			<link href="{{ asset('assets/css/start.css') }}" rel="stylesheet"/>
+		{% endblock %}
+	</head>
     <body>
 		<div id="menu">
 			<ul>
 				<li class="personal_data">Wojciech Szczerbiński</li>
 			</ul>
 		</div>
-		
     </body>
 </html>
